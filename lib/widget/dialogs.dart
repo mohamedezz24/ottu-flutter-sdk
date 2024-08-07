@@ -243,7 +243,7 @@ class Dialogs {
               Navigator.of(ctx).pop();
             },
             style: TextButton.styleFrom(
-              primary: primaryColor,
+              foregroundColor: primaryColor,
               side: const BorderSide(color: primaryColor),
             ),
             child: Text(
